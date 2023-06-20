@@ -13,7 +13,7 @@
   <script>
     /* eslint-disable */ 
   export default {
-    name: 'Login',
+    name: 'Registration',
   }
   </script>
   

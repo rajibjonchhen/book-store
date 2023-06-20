@@ -1,25 +1,30 @@
 <template>
-  <main>
-    <h1>vue</h1>
-   <router-view></router-view>
-  </main>
+  <div id="app">
+    <main>
+      <router-view/>
+    </main>
+  </div>
 </template>
 
 <script>
 
-
 export default {
   name: 'App',
+ 
 }
 </script>
 
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  margin: 0px;
+  padding:0;
+}
+main{
+  min-height: 80vh;
 }
 </style>
