@@ -1,7 +1,7 @@
 <template>
   <main>
     <h1>vue</h1>
-    <router-view/>
+   <router-view></router-view>
   </main>
 </template>
 
